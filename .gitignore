@@ -1,3 +1,6 @@
 ﻿/csvkey/__pycache__
 /csvkey.pyproj
 /example.py
+/dist
+/csvkey.egg-info
+/build/lib/csvkey

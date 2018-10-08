@@ -1,8 +1,8 @@
-##csvkey
+## csvkey
 For a very limited situation such that you don't need performance and 
 want to use CSV as database.
 
-##Example
+## Example
 ```python
 from csvkey import Connection
 import pandas as pd
@@ -49,5 +49,5 @@ pip install csvkey
 ```
 
 ## Requirements
-pandas
+pandas  
 pyyaml

@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='csvkey',
-    version='0.0.1',
+    version='0.0.2',
     author='KOBAYASHI Ittoku',
     author_email='nono381d815@gmail.com',
     description='use PRIMARY KEY and UNIQUE in CSV',
