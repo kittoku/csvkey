@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='csvkey',
-    version='0.0.2',
+    version='0.0.3',
     author='KOBAYASHI Ittoku',
     author_email='nono381d815@gmail.com',
     description='use PRIMARY KEY and UNIQUE in CSV',
@@ -13,6 +13,7 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     url='https://github.com/kittoku/csvkey',
     packages=setuptools.find_packages(),
+    install_requires=['pandas', 'pyyaml'],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
